@@ -1,0 +1,47 @@
+## .NET / Visual Studio / Rider
+bin/
+obj/
+*.user
+*.suo
+.vs/
+.vscode/
+*.userosscache
+*.sln.docstates
+
+## Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+build/
+[Ll]og/
+[Ll]ogs/
+
+## NuGet
+*.nupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+
+## Rider
+.idea/
+
+## Test results
+TestResults/
+[Tt]est[Rr]esult*/
+
+## Secrets e configs locais (NUNCA versionar)
+appsettings.Development.json
+appsettings.*.local.json
+*.env
+.env
+
+## Docker
+docker-compose.override.yml
+
+## OS
+.DS_Store
+Thumbs.db
+
+## EF Core
+*.mdf
+*.ldf
