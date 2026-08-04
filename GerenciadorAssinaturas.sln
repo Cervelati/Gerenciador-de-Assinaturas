@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GerenciadorAssinaturas.Api", "GerenciadorAssinaturas.Api\GerenciadorAssinaturas.Api.csproj", "{5F06079D-B84F-4533-9066-41F6C711AD94}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GerenciadorAssinaturas.Tests", "GerenciadorAssinaturas.Tests\GerenciadorAssinaturas.Tests.csproj", "{60857EF1-ECDA-4369-A2ED-B0DA2FFABD7F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,18 @@ Global
 		{5F06079D-B84F-4533-9066-41F6C711AD94}.Release|x64.Build.0 = Release|Any CPU
 		{5F06079D-B84F-4533-9066-41F6C711AD94}.Release|x86.ActiveCfg = Release|Any CPU
 		{5F06079D-B84F-4533-9066-41F6C711AD94}.Release|x86.Build.0 = Release|Any CPU
+		{60857EF1-ECDA-4369-A2ED-B0DA2FFABD7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60857EF1-ECDA-4369-A2ED-B0DA2FFABD7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60857EF1-ECDA-4369-A2ED-B0DA2FFABD7F}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{60857EF1-ECDA-4369-A2ED-B0DA2FFABD7F}.Debug|x64.Build.0 = Debug|Any CPU
+		{60857EF1-ECDA-4369-A2ED-B0DA2FFABD7F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{60857EF1-ECDA-4369-A2ED-B0DA2FFABD7F}.Debug|x86.Build.0 = Debug|Any CPU
+		{60857EF1-ECDA-4369-A2ED-B0DA2FFABD7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60857EF1-ECDA-4369-A2ED-B0DA2FFABD7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60857EF1-ECDA-4369-A2ED-B0DA2FFABD7F}.Release|x64.ActiveCfg = Release|Any CPU
+		{60857EF1-ECDA-4369-A2ED-B0DA2FFABD7F}.Release|x64.Build.0 = Release|Any CPU
+		{60857EF1-ECDA-4369-A2ED-B0DA2FFABD7F}.Release|x86.ActiveCfg = Release|Any CPU
+		{60857EF1-ECDA-4369-A2ED-B0DA2FFABD7F}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
