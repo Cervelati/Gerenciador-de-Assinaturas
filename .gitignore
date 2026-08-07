@@ -45,3 +45,8 @@ Thumbs.db
 ## EF Core
 *.mdf
 *.ldf
+
+##Environment
+
+.env
+.envExample
