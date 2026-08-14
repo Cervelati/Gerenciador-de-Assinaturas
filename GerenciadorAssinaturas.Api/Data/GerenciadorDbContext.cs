@@ -12,5 +12,6 @@ namespace GerenciadorAssinaturas.Api.Data;
         public DbSet <Usuario> Usuarios {get; set;}
         public DbSet <Plano> Planos {get; set;}
         public DbSet <Assinatura> Assinaturas {get; set;}
+        public DbSet <Cartao> Cartoes {get; set;}
 
     }

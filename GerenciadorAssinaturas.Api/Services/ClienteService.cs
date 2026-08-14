@@ -19,7 +19,7 @@ namespace GerenciadorAssinaturas.Api.Services;
             return cliente;
         }
 
-        public async Task <List<Cliente>> BuscarTodosClientesAsync ()
+        public async Task <List<Cliente>> ListarTodosClientesAsync ()
         {
             return await _context.Clientes.ToListAsync();   
         }
