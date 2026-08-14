@@ -29,7 +29,7 @@ namespace GerenciadorAssinaturas.Api.Services;
             var usuario = await _context.Usuarios.FindAsync(id);
             if (usuario == null)
             {
-                throw new KeyNotFoundException($"Usuario {id} não encontrado");
+                throw new KeyNotFoundException($"Usuário {id} não encontrado");
             }
 
             return usuario;
@@ -39,7 +39,7 @@ namespace GerenciadorAssinaturas.Api.Services;
         {
             var usuario = await _context.Usuarios.FindAsync(id);
             if (usuario == null)
-                throw new KeyNotFoundException($"Usuario {id} não encontrado");
+                throw new KeyNotFoundException($"Usuário {id} não encontrado");
 
             if (!string.IsNullOrWhiteSpace(usuarioAtualizado.Nome))
                 usuario.Nome = usuarioAtualizado.Nome;
@@ -55,7 +55,7 @@ namespace GerenciadorAssinaturas.Api.Services;
         {
             var usuario = await _context.Usuarios.FindAsync(id);
             if (usuario == null)
-                throw new KeyNotFoundException($"Usuario {id} não encontrado");
+                throw new KeyNotFoundException($"Usuário {id} não encontrado");
 
             bool senhaCorreta = BCrypt.Net.BCrypt.Verify(senhaAtual, usuario.HashSenha);
             if (!senhaCorreta)
